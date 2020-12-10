@@ -6,7 +6,7 @@
     "formatVersion": 1,
     "menu": "",
     "name": "Pull",
-    "shortcut": "Shift+F1",
+    "shortcut": "",
     "tag": [
         "%SCRIPT",
         "buildManager.runCommand(\"git pull > txs:///messages \", editor.fileName())"

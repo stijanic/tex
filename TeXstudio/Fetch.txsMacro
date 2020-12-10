@@ -5,11 +5,11 @@
     ],
     "formatVersion": 1,
     "menu": "",
-    "name": "Status",
+    "name": "Fetch",
     "shortcut": "",
     "tag": [
         "%SCRIPT",
-        "buildManager.runCommand(\"git status \" + editor.fileName() + \" > txs:///messages \", editor.fileName())"
+        "buildManager.runCommand(\"git fetch > txs:///messages \", editor.fileName())"
     ],
     "trigger": ""
 }
