@@ -91,6 +91,7 @@ Srdjan Tijanic
 \begin_layout Abstract
 This is so cool and easy to use.
  It took me some time to figure out but I am so pleased now.
+ It is so pretty that I decided to keep it.
 \end_layout
 
 \begin_deeper
@@ -148,6 +149,17 @@ This is Newton, at least the apple.
 \end_deeper
 \begin_layout Abstract
 Definitely everything looks nice today.
+ Check in chapter: 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Inline-table"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Abstract
@@ -195,9 +207,16 @@ Something better than other
 
 \begin_layout Section
 Inline table
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Inline-table"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout Verbatim
 \noindent
 And it's getting better and better!!!
 \end_layout
