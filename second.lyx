@@ -184,5 +184,16 @@ Conclusion
 I hope this will make a difference!
 \end_layout
 
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Version: 
+\begin_inset Info
+type  "buffer"
+arg   "vcs-revision"
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
