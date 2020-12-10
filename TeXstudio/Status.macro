@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Status",
+    "shortcut": "",
+    "tag": [
+        "%SCRIPT",
+        "buildManager.runCommand(\"git status \" + editor.fileName() + \" > txs:///messages \", editor.fileName())"
+    ],
+    "trigger": ""
+}

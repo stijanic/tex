@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Log",
+    "shortcut": "",
+    "tag": [
+        "%SCRIPT",
+        "buildManager.runCommand(\"git log \" + editor.fileName() + \" > txs:///messages \", editor.fileName())"
+    ],
+    "trigger": ""
+}

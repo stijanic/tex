@@ -1,0 +1,22 @@
+{
+    "abbrev": "",
+    "description": [
+        "?save-file",
+        "?close-file"
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Commit",
+    "shortcut": "",
+    "tag": [
+        "%SCRIPT",
+        "dialog = new UniversalInputDialog() ",
+        "dialog.setWindowTitle(\"Git commit\") ",
+        "dialog.add(\"Commited by stijanic\", \"Comment\", \"comment\") ",
+        "if (dialog.exec() != null) {",
+        "\tcomment = dialog.get(\"comment\")",
+        "\tbuildManager.runCommand(\"git commit -a -m \\\"\" + comment + \"\\\" > txs:///messages \", editor.fileName())",
+        "}"
+    ],
+    "trigger": ""
+}

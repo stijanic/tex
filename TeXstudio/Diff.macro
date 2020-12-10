@@ -1,0 +1,23 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Diff",
+    "shortcut": "",
+    "tag": [
+        "%SCRIPT",
+        "dialog = new UniversalInputDialog()",
+        "dialog.setWindowTitle(\"Choose commit:\")",
+        "dialog.add(\"HEAD\", \"Recent version\", \"commit1\")",
+        "dialog.add(\"HEAD^\", \"Elder version\", \"commit2\")",
+        "if (dialog.exec() != null) {",
+        "\tcommit1 = dialog.get(\"commit1\")",
+        "\tcommit2 = dialog.get(\"commit2\")",
+        "\tbuildManager.runCommand(\"git difftool \" + commit1 + \" \" + commit2 + \" --no-prompt \", editor.fileName())",
+        "}"
+    ],
+    "trigger": ""
+}

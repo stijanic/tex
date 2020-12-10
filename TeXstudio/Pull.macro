@@ -1,0 +1,15 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Pull",
+    "shortcut": "Shift+F1",
+    "tag": [
+        "%SCRIPT",
+        "buildManager.runCommand(\"git pull > txs:///messages \", editor.fileName())"
+    ],
+    "trigger": ""
+}
