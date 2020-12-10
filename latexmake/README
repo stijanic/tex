@@ -1,0 +1,20 @@
+Readme begins:
+
+This is a generic makefile to create output from a Latex file.
+
+It will run the designated LaTeX FILE through TeX in turn until all
+cross-references are resolved, building all indices.  The directory
+containing each FILE is searched for included files.
+
+It can also generate .html, .txt or .rtf files.
+
+To get help, type 'make help'
+
+Distribute freely, but please include the author's info & copyright,
+the file's version & url with the distribution.
+
+Support free software movement! Please send you comments, suggestions, bug
+reports, patches to the author from the xpt project home URL. They are
+warmly welcome. Thank you for using the tools from the xpt project.
+
+Readme ends.
