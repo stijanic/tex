@@ -1,13 +1,12 @@
-#LyX file created by tex2lyx 2.3
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
 \lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin /home/stijanic/Projects/LaTeX/
+\origin unavailable
 \textclass article
 \begin_preamble
 \usepackage{babel}
-
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
@@ -90,7 +89,8 @@ Srdjan Tijanic
 \end_layout
 
 \begin_layout Abstract
-This is so cool
+This is so cool and easy to use.
+ It took me some time to figure out but I am so pleased now.
 \end_layout
 
 \begin_deeper
@@ -108,8 +108,7 @@ This is an example of an inline equation:
 \begin_inset Foot
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 This is Einstein
 \end_layout
 
@@ -126,6 +125,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
+
 \backslash
 protect
 \end_layout
@@ -136,8 +136,7 @@ protect
 \begin_inset Foot
 status collapsed
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 This is Newton, at least the apple.
 \end_layout
 
@@ -152,18 +151,15 @@ Definitely everything looks nice today.
 \end_layout
 
 \begin_layout Abstract
-
 \begin_inset Float figure
 placement h
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \align center
-
-\begin_inset Graphics 
+\begin_inset Graphics
 	filename example-image.jpeg
 	scale 50
 	special viewport=0bp 0bp 259bp 194bp
@@ -173,8 +169,7 @@ status open
  
 \end_layout
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -192,7 +187,6 @@ Something better than other
 \end_layout
 
 \begin_layout Standard
-
 \begin_inset Newpage newpage
 \end_inset
 
@@ -210,20 +204,17 @@ And it's getting better and better!!!
 
 \begin_layout Standard
 \noindent
-
 \begin_inset Float table
 placement H
 wide false
 sideways false
 status open
 
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \align center
-
-\begin_inset Tabular 
+\begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="5">
-<features rotate="0" booktabs="true" tabularvalignment="middle" tabularwidth="0pt">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -233,7 +224,7 @@ status open
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 a 
 \end_layout
 
@@ -242,7 +233,7 @@ a
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 b 
 \end_layout
 
@@ -251,7 +242,7 @@ b
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 c 
 \end_layout
 
@@ -260,7 +251,7 @@ c
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 d 
 \end_layout
 
@@ -269,7 +260,7 @@ d
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 e
 \end_layout
 
@@ -280,7 +271,7 @@ e
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 1 
 \end_layout
 
@@ -289,22 +280,34 @@ e
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 1
 \end_layout
 
@@ -315,12 +318,16 @@ e
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
 1 
 \end_layout
 
@@ -329,15 +336,27 @@ e
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 </cell>
 <cell alignment="none" valignment="top" topline="true" usebox="none">
 \begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 </cell>
@@ -346,17 +365,25 @@ e
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 1 
 \end_layout
 
@@ -365,10 +392,18 @@ e
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 </cell>
 <cell alignment="none" valignment="top" topline="true" usebox="none">
 \begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 </cell>
@@ -377,22 +412,34 @@ e
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Standard
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 1 
 \end_layout
 
@@ -400,6 +447,10 @@ e
 </cell>
 <cell alignment="none" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 </cell>
@@ -411,12 +462,12 @@ e
 
 \end_layout
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
+
 
 \backslash
 centering
@@ -429,6 +480,7 @@ centering
 status collapsed
 
 \begin_layout Plain Layout
+
 {}
 \end_layout
 
@@ -444,6 +496,36 @@ Cool table, isn't it?
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bigskip
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bigskip
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bigskip
 \end_layout
 
 \end_inset
