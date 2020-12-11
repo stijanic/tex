@@ -137,6 +137,17 @@ status open
 \begin_layout Standard
 После одређеног времена сам одлучио да се ствари не морају мењати драстично
  већ само у одређеној мери.
+ Види страна број 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "sec:Закључак"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -214,17 +225,6 @@ status open
 
 \begin_layout Standard
 Могу још по нешто да додам.
- Види страна број 
-\begin_inset CommandInset ref
-LatexCommand pageref
-reference "sec:Закључак"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
@@ -276,6 +276,240 @@ status open
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:Закључак"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+а
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+б
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+в
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+г
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Супер табела
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
