@@ -108,7 +108,7 @@ status open
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 \begin_inset Formula $\prod$
 \end_inset
 
@@ -117,6 +117,17 @@ status open
 \end_inset
 
  су супер слова.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\int\sum\sqrt[3]{\text{џ}}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -129,11 +140,69 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $E$
+\begin_inset Formula $E=mc^{2}$
 \end_inset
 
-=mc
-\begin_inset Formula $^{2}$
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1,key-2"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\begin{array}{cc}
+1 & 0\\
+0 & 1
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 1
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "1pt"
+separation "5pt"
+shadowsize "4pt"
+framecolor "orange"
+backgroundcolor "white"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{equation}
+\alpha^{2}+\beta^{2}=\gamma^{2}\label{eq:Супер}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -145,6 +214,56 @@ status open
 
 \begin_layout Standard
 Могу још по нешто да додам.
+ Види страна број 
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "sec:Закључак"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename first.jpeg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ово је баш супер сличица
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -154,6 +273,13 @@ status open
 \begin_layout Standard
 Све је било јако добро.
  Хвала.
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Закључак"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Bibliography
