@@ -8,15 +8,15 @@
 \use_default_options true
 \maintain_unincluded_children false
 \language serbian
-\language_package default
+\language_package babel
 \inputencoding auto
-\fontencoding global
-\font_roman "default" "default"
-\font_sans "default" "default"
-\font_typewriter "default" "default"
+\fontencoding 
+\font_roman "default" "CMU Concrete"
+\font_sans "default" "CMU Sans Serif"
+\font_typewriter "default" "CMU Typewriter Text"
 \font_math "auto" "auto"
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100 100
@@ -26,7 +26,7 @@
 \graphics default
 \default_output_format default
 \output_sync 0
-\bibtex_command default
+\bibtex_command biber
 \index_command default
 \paperfontsize default
 \spacing single
@@ -43,8 +43,8 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine natbib
-\cite_engine_type authoryear
+\cite_engine basic
+\cite_engine_type default
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -78,6 +78,15 @@
 \begin_body
 
 \begin_layout Title
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
 Супер наслов
 \end_layout
 
@@ -94,12 +103,88 @@
 Први
 \end_layout
 
+\begin_layout Standard
+Свашта ми је пало на памет па сам одлучио да почнем да пишем...
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Кул
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\prod$
+\end_inset
+
+и 
+\begin_inset Formula $\sum$
+\end_inset
+
+ су супер слова.
+\end_layout
+
 \begin_layout Section
 Други
 \end_layout
 
+\begin_layout Standard
+После одређеног времена сам одлучио да се ствари не морају мењати драстично
+ већ само у одређеној мери.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E$
+\end_inset
+
+=mc
+\begin_inset Formula $^{2}$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Трећи
+\end_layout
+
+\begin_layout Standard
+Могу још по нешто да додам.
+\end_layout
+
+\begin_layout Section
+Закључак
+\end_layout
+
+\begin_layout Standard
+Све је било јако добро.
+ Хвала.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+literal "false"
+
+\end_inset
+
+Он
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+literal "false"
+
+\end_inset
+
+Ти
 \end_layout
 
 \end_body
