@@ -266,10 +266,10 @@ usage:
 #	texi2pdf --help
 
 clean: 
-	rm -f ${TEX_SOURCE_BASE}.chk ${TEX_SOURCE_BASE}.dvi ${TEX_SOURCE_BASE}.log ${TEX_SOURCE_BASE}.aux ${TEX_SOURCE_BASE}.bbl ${TEX_SOURCE_BASE}.blg ${TEX_SOURCE_BASE}.ilg ${TEX_SOURCE_BASE}.toc ${TEX_SOURCE_BASE}.lof ${TEX_SOURCE_BASE}.lot ${TEX_SOURCE_BASE}.idx ${TEX_SOURCE_BASE}.ind ${TEX_SOURCE_BASE}.out ${TEX_SOURCE_BASE}.run.xml ${TEX_SOURCE_BASE}.mx1 ${TEX_SOURCE_BASE}.gz ${TEX_SOURCE_BASE}.bcf
+	rm -f ${TEX_SOURCE_BASE}.chk ${TEX_SOURCE_BASE}.dvi ${TEX_SOURCE_BASE}.log ${TEX_SOURCE_BASE}.aux ${TEX_SOURCE_BASE}.bbl ${TEX_SOURCE_BASE}.blg ${TEX_SOURCE_BASE}.ilg ${TEX_SOURCE_BASE}.toc ${TEX_SOURCE_BASE}.lof ${TEX_SOURCE_BASE}.lot ${TEX_SOURCE_BASE}.idx ${TEX_SOURCE_BASE}.ind ${TEX_SOURCE_BASE}.out ${TEX_SOURCE_BASE}.run.xml ${TEX_SOURCE_BASE}.mx1 ${TEX_SOURCE_BASE}.gz ${TEX_SOURCE_BASE}.bcf ${TEX_SOURCE_BASE}.*~ html/${TEX_SOURCE_BASE}.html html/${TEX_SOURCE_BASE}.css
 
 cleangen :
-	rm -f *.chk *.dvi *.log *.aux *.bbl *.blg *.ilg *.toc *.lof *.lot *.idx *.ind *.out *.mx1 *.xml *.gz *.bcf *.ps *.pdf  
+	rm -f *.chk *.dvi *.log *.aux *.bbl *.blg *.ilg *.toc *.lof *.lot *.idx *.ind *.out *.mx1 *.xml *.gz *.bcf *.*~ *.ps *.pdf html/*.html html/*.css
 	rm -rf _markdown_README
 
 clean-bak : clean
