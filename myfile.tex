@@ -110,4 +110,165 @@ This is just an ordinary line space.
 	} \hfill --- Roger Bacon
 \end{verse}
 
+\begin{description}
+	\item [Basic Document Preparation.] Knowing how to setup ...
+	\item [Making Tables.] \LaTeX~ provides a means ...
+	\item [Bibliography.] Knowing how to create a bibliography ...
+	\item [Mathematics.] This is the power of \LaTeX~ and one ...
+	\item [Graphics.] This has progressed a great deal in the ...
+	\item [Other.] There are a great many things to learn ...
+\end{description}
+
+\begin{description}
+	\item \textsf{This is how one item in a description list
+		environment looks with no optional text at the beginning.}
+\end{description}
+
+\begin{itemize}
+	\item This is item 1 and our task has just begun.
+	before an item have no effect.
+	Blank lines
+	\item This is item 2 and we shall limit to just this few.
+	A blank line within an item does create a new paragraph,
+	using the indentation of the itemize environment.
+	\begin{itemize}
+		\item A second (nested) itemized list changes the bullet
+		and indents another level.
+	\end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+	\item This is item 1, and we are having fun.
+	\item This is item 2, and it’s time to number anew.
+	\begin{enumerate}
+		\item Back to item 1, but we are not yet done.
+		\item Two is new.
+		\begin{enumerate}
+			\item One again!
+			\item Two (b) or knot 2b?
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+\bigskip
+\begin{tabular}{lcr}
+	left & center & right \\
+	1 & 2
+	& 3
+\end{tabular}
+
+\bigskip
+\begin{tabular}{|l|c|r|} \hline
+	-110 & 120 & -130 \\ \hline
+	210 & -220 & 230 \\ \hline
+\end{tabular}
+
+\bigskip
+\begin{tabular}{l|cc|}
+	Name & Test 1 & Test 2 \\ \cline{1-1}
+	Bob
+	& 67
+	& 72 \\
+	Sue
+	& 72
+	& 67 \\ \cline{2-3}
+\end{tabular}
+
+\bigskip\textsf{
+	\begin{tabular}{lp{.3in}l} \\
+		\underline{Table 1} &&
+		Table 2 \\ \cline{3-3}
+		\\
+		\begin{tabular}{|lc|} \hline
+			Object
+			& Symbols used \\ \hline
+			variable & lower case \textrm{Roman} \\
+			parameter & \textit{Greek}
+			\\
+			constant & \textsc{upper case} \textrm{Roman} \\
+		\end{tabular}
+		&& % Begin Table 2
+		\begin{tabular}{|rcc|} \hline
+			* & 1 & 2 \\ \cline{2-2}
+			& 3 & 4 \\ \cline{1-1}\cline{3-3}
+		\end{tabular}
+	\end{tabular}
+} % end sf
+
+\bigskip
+\begin{tabular}{|l|l|} \hline
+	This amount of text is too long to fit on one line of
+	the page. & This is column 2. \\ \hline
+\end{tabular}
+
+\bigskip
+\begin{tabular}{|l|l|} \hline
+	This amount of text is too long to fit on one
+	& This is column 2. \\
+	line of the page. & \\ \hline
+\end{tabular}
+
+\bigskip
+\begin{tabular}{|p{2in}|l|} \hline
+	This amount of text is too long to fit on one line of the page.
+	& This is column 2. \\ \hline
+\end{tabular}
+
+\bigskip
+\begin{tabular}{|l|l|} \hline
+	\parbox{2in}{This amount of text is too long to fit on
+		one line of the page.} & This is column 2. \\ \hline
+\end{tabular}
+
+\bigskip
+\begin{tabular}{|l|l|} \hline
+	\parbox[t]{2in}{This amount of text is too long to fit on
+		one line of the page.} & This is column 2. \\ \hline
+\end{tabular}
+
+\bigskip
+\begin{center}
+	\begin{tabular}{ll}
+		\parbox[t]{3in}{\begin{flushleft}
+				This is column 1, and I might want to display something:
+
+				\medskip\centerline{\fbox{How sweet it is.}}\medskip
+
+				This is not the same as
+
+				\medskip\fbox{\centerline{How sweet it is.}}
+							\end{flushleft} }
+		& \parbox[t]{1in}{\begin{flushleft}\textsf{This is column 2,
+					which I have put in sans serif font.}
+							\end{flushleft} }
+	\end{tabular}
+\end{center}
+
+\begin{center}
+	\begin{tabular}{l|cc|c}
+		& \multicolumn{2}{|c|}{Test number} \\
+		\multicolumn{1}{c|}{Student} &
+		1
+		&
+		2
+		& Average \\ \hline
+		Bill
+		&
+		67
+		&
+		72
+		&
+		70.5 \\
+		Charleetah
+		&
+		72
+		&
+		67
+		&
+		70.5 \\ \hline
+		& \multicolumn{2}{c}{Taken in class}
+		\\ \cline{2-3}
+	\end{tabular}
+\end{center}
+
 \end{document}
